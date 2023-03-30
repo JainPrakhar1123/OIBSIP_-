@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+   <header>
+    
+    <nav id="navbar">
+        <div class="navthing">
+            <ul>
+                <li> <a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+   </header>
+
+  <section id="home">
+    <div class="home-content">
+        <img class="home-img" src="imgs/IMG_20211124_231757_564.jpg" alt="">
+        <h3 class="name">Prakhar Jain</h3>
+        <h1 class="lthings">Logical,Learner<br/>and Luminous</h1>
+        <p class="pthing"> i am a <span class="typing-text">  </span> </p>
+        <Button class="bthing">Contact Me</Button>
+
+    </div>
+  </section>
+    <section id="about-me">
+       
+       
+     <div class="abtp">       
+       <div class="abtimg">
+        <img src="imgs/prakhar jain1.jpg" alt="">
+       </div>
+       <div class="para">
+        <h1 class="headA">About Me</h1> 
+         <p class="info">Hello,my name is<span> Prakhar Jain</span> and I'm a Front end/React Developer with a passion for creating beautiful and responsive website.
+         <br/> I am good in Problem Solving and have knowledge about Data Structure & Algorithm.
+         I have a solid foundation in coding languages such as HTML, CSS, and JavaScript, as well as experience with popular web development framework like React. I am a Good Learner and committed to staying up-to-date with new technology and best practices.I am thrilled to partner with you to make your ideas a reality. </p>
+        </div>
+      </div>
+    </section>
+
+  <section id="skill">
+    <h1 class="headS">Skills</h1>
+    <div class="skill-percent">
+    <div class="skill-bar">
+      <div class="skill-level" style="width: 90%;"></div>
+    </div>
+    <p class="skill-label">HTML/CSS - 90%</p>
+    <div class="skill-bar">
+      <div class="skill-level" style="width: 75%;"></div>
+    </div>
+    <p class="skill-label">JavaScript-75%</p>
+    <div class="skill-bar">
+      <div class="skill-level" style="width: 80%;"></div>
+    </div>
+    <p class="skill-label">React-80%</p>
+    <div class="skill-bar">
+      <div class="skill-level" style="width: 60%;"></div>
+    </div>
+    <p class="skill-label">Node.js-60%</p>
+   </div>
+   </section>
+
+   <section id="projects">
+    <h1 class="headP">My Projects</h1>
+    <div class="projthing">
+    <div class="first">
+        <img src="imgs/images (2).jpg" alt="">
+        <h3>Know Weather</h3>
+        <p>Tells about the weather condition of a location.. <br/>Developed by using HTML,CSS & JavaScript</p>
+        <a href=""  class="bthing" target="_blank">Explore</a>
+    </div>
+    <div class="first">
+        <img src="imgs/download (6).png" alt="">
+        <h3>ToDo Website</h3>
+        <p>Can update the ToDo list for a particular day.. <br/>Developed by using HTML,CSS & JavaScript</p>
+        <a href="" class="bthing" target="_blank">Explore</a>
+    </div>
+    <div class="first">
+        <img src="imgs/download (.png" alt="">
+        <h3>GYM Website</h3>
+        <p>Search for different Exercises for different body part..<br/>Developed by using React,RapidAPI & JavaScript</p>
+        <a href="" class="bthing" target="_blank">Explore</a>
+    </div>
+    </div>
+
+   </section>
+
+   <!-- contact` -->
+   <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+  
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  
+
+  <footer id="footer">
+    <div class="center footer">
+       <p> Copyright &copy; MyPortfolio. All rights reserved!</p>
+       <a href="#navbar"><i class="bi bi-arrow-up-circle-fill"></i></a>
+    </div>
+</footer>
+   <!-- typed.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script>
+    var typed = new Typed('.typing-text', {
+        strings : [ 'react developer' ,'coder','front end developer','react developer'],
+        loop : true,
+        typeSpeed : 120
+    });
+</script>
+</body>
+</html>
